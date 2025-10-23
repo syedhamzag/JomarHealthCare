@@ -1,0 +1,6 @@
+/.vs
+/JomarHealthCare.Repository/obj
+/JomarHealthCare.API/bin
+/JomarHealthCare.API/Logs
+/JomarHealthCare.API/obj
+/JomarHealthCare.Application/obj
