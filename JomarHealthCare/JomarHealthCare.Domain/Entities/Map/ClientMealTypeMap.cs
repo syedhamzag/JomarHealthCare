@@ -1,0 +1,33 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+namespace JomarHealthCare.Domain.Entities.Map
+{
+    public class ClientMealTypeMap : IEntityTypeConfiguration<ClientMealType>
+    {
+        public void Configure(EntityTypeBuilder<ClientMealType> builder)
+        {
+            builder.ToTable("tbl_Client_MealType");
+            builder.HasKey(p => p.ClientMealTypeId);
+
+            #region Properties
+            builder.Property(p => p.ClientMealTypeId)
+                .HasColumnName("ClientMealTypeId")
+                .IsRequired();
+
+            builder.Property(p => p.MealType)
+                .HasColumnName("MealType")
+                .HasMaxLength(15)
+                .IsRequired();
+
+            builder.Property(p => p.Deleted)
+               .HasColumnName("Deleted")
+               .IsRequired();
+
+            builder.HasIndex(i => i.MealType)
+                .IsUnique(true)
+                .HasName("IX_tbl_Client_MealType_MealType");
+            #endregion
+        }
+    }
+}

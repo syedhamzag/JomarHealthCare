@@ -1,0 +1,44 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+namespace JomarHealthCare.Domain.Entities.Map
+{
+    public class InvestigationMap : IEntityTypeConfiguration<Investigation>
+    {
+        public void Configure(EntityTypeBuilder<Investigation> builder)
+        {
+            builder.ToTable("tbl_Investigation");
+            builder.HasKey(k => k.InvestigationId);
+
+            #region Properties
+            builder.Property(p => p.InvestigationId)
+                .HasColumnName("InvestigationId")
+                .IsRequired();
+
+            builder.Property(p => p.StaffPersonalInfoId)
+               .HasColumnName("StaffPersonalInfoId")
+               .IsRequired();
+
+            builder.Property(p => p.CompanyId)
+               .HasColumnName("ClientId")
+               .IsRequired();
+
+            builder.Property(p => p.IncidentClass)
+               .HasColumnName("IncidentClass")
+               .IsRequired();
+
+            builder.Property(p => p.Remark)
+               .HasColumnName("Remark")
+               .IsRequired();
+
+            builder.Property(p => p.IncidentDate)
+               .HasColumnName("IncidentDate")
+               .IsRequired();
+
+            builder.Property(p => p.ConclusionDate)
+               .HasColumnName("ConclusionDate")
+               .IsRequired(false);
+            #endregion
+        }
+    }
+}

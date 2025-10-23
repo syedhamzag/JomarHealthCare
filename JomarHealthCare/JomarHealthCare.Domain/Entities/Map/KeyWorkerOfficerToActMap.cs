@@ -1,0 +1,29 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+namespace JomarHealthCare.Domain.Entities.Map
+{
+    public class KeyWorkerOfficerToActMap : IEntityTypeConfiguration<KeyWorkerOfficerToAct>
+    {
+        public void Configure(EntityTypeBuilder<KeyWorkerOfficerToAct> builder)
+        {
+            builder.ToTable("tbl_KeyWorker_OfficerToAct");
+            builder.HasKey(k => k.KeyWorkerOfficerToActId);
+
+            #region Properties
+            builder.Property(p => p.KeyWorkerOfficerToActId)
+               .HasColumnName("KeyWorkerOfficerToActId")
+               .IsRequired();
+
+            builder.Property(p => p.StaffPersonalInfoId)
+              .HasColumnName("StaffPersonalInfoId")
+              .IsRequired();
+
+            builder.Property(p => p.KeyWorkerId)
+             .HasColumnName("KeyWorkerId")
+             .IsRequired();
+
+            #endregion
+        }
+    }
+}

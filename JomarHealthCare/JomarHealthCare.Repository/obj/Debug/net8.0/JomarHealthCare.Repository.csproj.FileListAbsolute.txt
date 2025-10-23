@@ -1,0 +1,5 @@
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Repository\obj\Debug\net8.0\JomarHealthCare.Repository.csproj.AssemblyReference.cache
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Repository\obj\Debug\net8.0\JomarHealthCare.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Repository\obj\Debug\net8.0\JomarHealthCare.Repository.AssemblyInfoInputs.cache
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Repository\obj\Debug\net8.0\JomarHealthCare.Repository.AssemblyInfo.cs
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Repository\obj\Debug\net8.0\JomarHealthCare.Repository.csproj.CoreCompileInputs.cache

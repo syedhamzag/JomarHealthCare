@@ -1,0 +1,77 @@
+﻿namespace JomarHealthCare.Application.DataModels.Careplan;
+
+public class CongnitiveDataModel
+{
+    public int Id { get; set; }
+    public string AbilityStatus { get; set; }
+    public bool UserGetMissing { get; set; }
+    public string RiskLevel { get; set; }
+    public string LocationOfMissingPersonFound { get; set; }
+    public string RequireOrCondition { get; set; }
+    public string PossibleTriggerToLeadClient { get; set; }
+    public string DuesServices { get; set; }
+    public string StaffPrepare { get; set; }
+    public string StaffWhenUserIsMissing { get; set; }
+    public string StaffWhenUserIsFound { get; set; }
+    public string DuringTransfer { get; set; }
+    public string WhenEating { get; set; }
+    public string WhenWalking { get; set; }
+    public string WhenSleeping { get; set; }
+    public string WhenMedicating { get; set; }
+    public string WhenBathing { get; set; }
+    public string WhenCleaning { get; set; }
+    public string WhenShopping { get; set; }
+    public string WhenBookAppointment { get; set; }
+    public string WhenCommunication { get; set; }
+    public bool SkinBreakDown { get; set; }
+    public string GeneralSkinCondition { get; set; }
+    public string SkinInspection { get; set; }
+    public string SUBeChecked { get; set; }
+    public string PossibleBreakDown { get; set; }
+    public string ProtectionOrBreakdown { get; set; }
+    public string PresureRelievingDevices { get; set; }
+    public string TypeOfDeviceAvailable { get; set; }
+    public string StaffUseTheDevice { get; set; }
+    public string SUawareSkinCare { get; set; }
+    public string BeforeSkinIntegrity { get; set; }
+    public string AfterSkinIntegrity { get; set; }
+    public string WoundCommunicating { get; set; }
+    public string WoundStage { get; set; }
+    public string WoundType { get; set; }
+    public string RisktoSU { get; set; }
+    public string RisktoStaff { get; set; }
+    public string Esclation { get; set; }
+    public bool DifficultyInBreathing { get; set; }
+    public string BreathingManage { get; set; }
+    public bool CathataCareRequired { get; set; }
+    public string UseCathata { get; set; }
+    public string ControlOfCathata { get; set; }
+    public string ChangeCathata { get; set; }
+    public string SupplyOFCathata { get; set; }
+    public string CathataConnected { get; set; }
+    public string CathataRecylced { get; set; }
+    public string DurationOfUse { get; set; }
+    public string CathataPosition { get; set; }
+    public string UTI { get; set; }
+    public string CathataEscalation { get; set; }
+    public string Vision { get; set; }
+    public string Speech { get; set; }
+    public string Hearing { get; set; }
+    public string AboutAppetit { get; set; }
+    public string AboutSwallow { get; set; }
+    public bool CCTV { get; set; }
+    public string Rubbishstorage { get; set; }
+    public string RiskRubbishstorage { get; set; }
+
+    public bool Bedrails { get; set; }
+    public string PositionBedrail { get; set; }
+    public string AssociatedWithBedrail { get; set; }
+    public string BedrailRisk { get; set; }
+    public string BedrailEscalation { get; set; }
+    public bool Recliner { get; set; }
+    public string PositionRecliner { get; set; }
+    public string AssociatedWithRecliner { get; set; }
+    public string ReclinerRisk { get; set; }
+    public string ReclinerEscalation { get; set; }
+    public Guid? ClientId { get; set; }
+}

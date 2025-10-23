@@ -1,0 +1,16 @@
+namespace JomarHealthCare.Application.DataModels.Staff
+{
+    public class StaffTrainingByListDataModel
+    {
+        public int StaffTrainingId { get; set; }
+        public string StaffPersonalInfoId { get; set; }
+        public string Training { get; set; }
+        public string Certificate { get; set; }
+        public string Location { get; set; }
+        public string Trainer { get; set; }
+        public string StartDate { get; set; }
+        public string ExpiredDate { get; set; }
+        public string CertificateAttachment { get; set; }
+        public string TrainingType { get; set; }
+    }
+}

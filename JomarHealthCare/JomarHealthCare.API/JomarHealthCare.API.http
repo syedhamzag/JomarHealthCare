@@ -1,0 +1,6 @@
+@JomarHealthCare.API_HostAddress = http://localhost:5163
+
+GET {{JomarHealthCare.API_HostAddress}}/swagger/
+Accept: application/json
+
+###

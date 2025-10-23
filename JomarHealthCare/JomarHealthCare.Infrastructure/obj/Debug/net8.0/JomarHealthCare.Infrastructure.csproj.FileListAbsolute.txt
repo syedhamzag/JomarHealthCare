@@ -1,0 +1,17 @@
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Infrastructure\bin\Debug\net8.0\JomarHealthCare.Infrastructure.deps.json
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Infrastructure\bin\Debug\net8.0\JomarHealthCare.Infrastructure.dll
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Infrastructure\bin\Debug\net8.0\JomarHealthCare.Infrastructure.pdb
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Infrastructure\bin\Debug\net8.0\JomarHealthCare.Application.dll
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Infrastructure\bin\Debug\net8.0\JomarHealthCare.Domain.dll
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Infrastructure\bin\Debug\net8.0\JomarHealthCare.Application.pdb
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Infrastructure\bin\Debug\net8.0\JomarHealthCare.Domain.pdb
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Infrastructure\obj\Debug\net8.0\JomarHealthCare.Infrastructure.csproj.AssemblyReference.cache
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Infrastructure\obj\Debug\net8.0\JomarHealthCare.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Infrastructure\obj\Debug\net8.0\JomarHealthCare.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Infrastructure\obj\Debug\net8.0\JomarHealthCare.Infrastructure.AssemblyInfo.cs
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Infrastructure\obj\Debug\net8.0\JomarHealthCare.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Infrastructure\obj\Debug\net8.0\JomarHea.98D15698.Up2Date
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Infrastructure\obj\Debug\net8.0\JomarHealthCare.Infrastructure.dll
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Infrastructure\obj\Debug\net8.0\refint\JomarHealthCare.Infrastructure.dll
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Infrastructure\obj\Debug\net8.0\JomarHealthCare.Infrastructure.pdb
+C:\Projects\JomarHealthCare\JomarHealthCare\JomarHealthCare.Infrastructure\obj\Debug\net8.0\ref\JomarHealthCare.Infrastructure.dll

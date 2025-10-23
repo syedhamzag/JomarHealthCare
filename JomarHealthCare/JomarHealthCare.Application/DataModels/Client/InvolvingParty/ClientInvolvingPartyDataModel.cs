@@ -1,0 +1,15 @@
+﻿namespace JomarHealthCare.Application.DataModels.Client.InvolvingParty;
+
+public class ClientInvolvingPartyDataModel
+{
+    public int ClientInvolvingPartyId { get; set; }
+    public string ClientInvolvingPartyItem { get; set; }
+
+    public string Name { get; set; }
+    public string Address { get; set; }
+    public string Email { get; set; }
+    public string Telephone { get; set; }
+    public string Relationship { get; set; }
+
+    public Guid? ClientId { get; set; }
+}

@@ -1,0 +1,41 @@
+﻿using MediatR;
+
+namespace JomarHealthCare.Application.CQRS.HealthCondition.Commands;
+
+public class AddHealthConditionCommand : IRequest<JomarHealthCare.Domain.Entities.HealthCondition>
+{
+    public string Name { get; set; }
+    public string Description { get; set; }
+    public string Condition { get; set; }
+    public string CausesAndTrigger { get; set; }
+    public string Symptoms { get; set; }
+    public string ClientManagingWithCondition { get; set; }
+    public string RiskToClient { get; set; }
+    public string RiskToStaff { get; set; }
+    public string ActionRequiredToStaff { get; set; }
+    public string EscalationsApproach { get; set; }
+    public string Image { get; set; }
+    public Guid? CompanyId { get; set; }
+}
+
+public class DeleteHealthConditionCommand : IRequest<bool>
+{
+    public int HCId { get; set; }
+}
+
+public class UpdateHealthConditionCommand : IRequest<bool>
+{
+    public int HCId { get; set; }
+    public string Name { get; set; }
+    public string Description { get; set; }
+    public string Condition { get; set; }
+    public string CausesAndTrigger { get; set; }
+    public string Symptoms { get; set; }
+    public string ClientManagingWithCondition { get; set; }
+    public string RiskToClient { get; set; }
+    public string RiskToStaff { get; set; }
+    public string ActionRequiredToStaff { get; set; }
+    public string EscalationsApproach { get; set; }
+    public string Image { get; set; }
+    public Guid? CompanyId { get; set; }
+}

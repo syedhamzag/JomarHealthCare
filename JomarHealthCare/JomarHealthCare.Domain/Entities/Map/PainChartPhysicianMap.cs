@@ -1,0 +1,29 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+namespace JomarHealthCare.Domain.Entities.Map
+{
+    public class PainChartPhysicianMap : IEntityTypeConfiguration<PainChartPhysician>
+    {
+        public void Configure(EntityTypeBuilder<PainChartPhysician> builder)
+        {
+            builder.ToTable("tbl_PainChart_Physician");
+            builder.HasKey(k => k.PainChartPhysicianId);
+
+            #region Properties
+            builder.Property(p => p.PainChartPhysicianId)
+               .HasColumnName("PainChartPhysicianId")
+               .IsRequired();
+
+            builder.Property(p => p.StaffPersonalInfoId)
+              .HasColumnName("StaffPersonalInfoId")
+              .IsRequired();
+
+            builder.Property(p => p.PainChartId)
+             .HasColumnName("PainChartId")
+             .IsRequired();
+
+            #endregion
+        }
+    }
+}

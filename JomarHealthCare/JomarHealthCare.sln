@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JomarHealthCare.API", "JomarHealthCare.API\JomarHealthCare.API.csproj", "{8C36E07C-3852-48E1-BAE3-3028039C0C6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JomarHealthCare.Domain", "JomarHealthCare.Domain\JomarHealthCare.Domain.csproj", "{8C7EE042-7E7D-4A0F-BEA7-9376F6AD649C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JomarHealthCare.Repository", "JomarHealthCare.Repository\JomarHealthCare.Repository.csproj", "{B8DEB7FE-53A4-449F-A344-7D9C93F59C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JomarHealthCare.Application", "JomarHealthCare.Application\JomarHealthCare.Application.csproj", "{9C95FCC1-49C6-4E1C-A2B0-C2EE8A19C118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JomarHealthCare.Infrastructure", "JomarHealthCare.Infrastructure\JomarHealthCare.Infrastructure.csproj", "{45881DFD-6823-4CBF-B17C-04BE0A8AC422}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C36E07C-3852-48E1-BAE3-3028039C0C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C36E07C-3852-48E1-BAE3-3028039C0C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C36E07C-3852-48E1-BAE3-3028039C0C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C36E07C-3852-48E1-BAE3-3028039C0C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C7EE042-7E7D-4A0F-BEA7-9376F6AD649C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7EE042-7E7D-4A0F-BEA7-9376F6AD649C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7EE042-7E7D-4A0F-BEA7-9376F6AD649C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7EE042-7E7D-4A0F-BEA7-9376F6AD649C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8DEB7FE-53A4-449F-A344-7D9C93F59C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DEB7FE-53A4-449F-A344-7D9C93F59C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DEB7FE-53A4-449F-A344-7D9C93F59C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DEB7FE-53A4-449F-A344-7D9C93F59C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C95FCC1-49C6-4E1C-A2B0-C2EE8A19C118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C95FCC1-49C6-4E1C-A2B0-C2EE8A19C118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C95FCC1-49C6-4E1C-A2B0-C2EE8A19C118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C95FCC1-49C6-4E1C-A2B0-C2EE8A19C118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45881DFD-6823-4CBF-B17C-04BE0A8AC422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45881DFD-6823-4CBF-B17C-04BE0A8AC422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45881DFD-6823-4CBF-B17C-04BE0A8AC422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45881DFD-6823-4CBF-B17C-04BE0A8AC422}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A339E4A-1C38-4BE2-8F9C-E5740EA8801D}
+	EndGlobalSection
+EndGlobal
