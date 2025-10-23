@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projects\\JomarHealthCare\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C36E07C-3852-48E1-BAE3-3028039C0C6E}|JomarHealthCare.API\\JomarHealthCare.API.csproj|c:\\projects\\jomarhealthcare\\jomarhealthcare.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8C36E07C-3852-48E1-BAE3-3028039C0C6E}|JomarHealthCare.API\\JomarHealthCare.API.csproj|solutionrelative:jomarhealthcare.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Projects\\JomarHealthCare\\JomarHealthCare.API\\Dockerfile",
+              "RelativeDocumentMoniker": "JomarHealthCare.API\\Dockerfile",
+              "ToolTip": "C:\\Projects\\JomarHealthCare\\JomarHealthCare.API\\Dockerfile",
+              "RelativeToolTip": "JomarHealthCare.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-23T22:48:40.424Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -7,3 +7,8 @@
 /.vs
 /JomarHealthCare.API/obj
 *.v2
+.vs/ProjectEvaluation/jomarhealthcare.strings.v9.bin
+*.bin
+/.vs/ProjectEvaluation
+/.vs/ProjectEvaluation
+/.vs/JomarHealthCare/v17
