@@ -1,0 +1,6 @@
+services:
+  jomarhealthcare.api:
+    image: ${DOCKER_REGISTRY-}jomarhealthcareapi
+    build:
+      context: .
+      dockerfile: JomarHealthCare.API\Dockerfile
