@@ -12,3 +12,11 @@
 /.vs/ProjectEvaluation
 /.vs/ProjectEvaluation
 /.vs/JomarHealthCare/v17
+/.vs
+/bin
+/JomarHealthCare.API/bin
+/JomarHealthCare.API/obj
+/obj
+/JomarHealthCare.Infrastructure/obj
+/JomarHealthCare.Domain/obj
+/JomarHealthCare.Application/obj

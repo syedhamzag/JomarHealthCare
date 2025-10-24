@@ -3,4 +3,4 @@ services:
     image: ${DOCKER_REGISTRY-}jomarhealthcareapi
     build:
       context: .
-      dockerfile: JomarHealthCare.API\Dockerfile
+      dockerfile: JomarHealthCare.API/Dockerfile

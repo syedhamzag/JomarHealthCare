@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JomarHealthCare.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+592c8ea8504b5386114477b8de25d6b1ab339ece")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49b2a9f0d92ba5f037cbe62a90a3dc08b5953794")]
 [assembly: System.Reflection.AssemblyProductAttribute("JomarHealthCare.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JomarHealthCare.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
