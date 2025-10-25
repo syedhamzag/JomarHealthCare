@@ -17,6 +17,7 @@ namespace JomarHealthCare.Domain.Entities.Map
                .IsRequired();
 
             builder.Property(p => p.CompanyId)
+                .HasMaxLength(38)
                .HasColumnName("ClientId");
 
             builder.Property(p => p.Subject)
@@ -51,10 +52,10 @@ namespace JomarHealthCare.Domain.Entities.Map
             #endregion
 
             #region Relationship
-            // builder.HasOne(p => p.Client)
-            //      .WithMany(p => p.FilesAndRecord)
-            //      .HasForeignKey(p => p.CompanyId)
-            //      .OnDelete(DeleteBehavior.Cascade);
+            //builder.HasOne(p => p.Client)
+            //     .WithMany(p => p.FilesAndRecord)
+            //     .HasForeignKey(p => p.ClientId)
+            //     .OnDelete(DeleteBehavior.Cascade);
             #endregion
 
             #region Relationship

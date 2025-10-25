@@ -1,7 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using JomarHealthCare.Application;
+﻿using JomarHealthCare.Application;
 using JomarHealthCare.Application.Repositories;
 using JomarHealthCare.Application.Repositories.CarePlan;
 using JomarHealthCare.Application.Repositories.Clients;
@@ -14,6 +11,11 @@ using JomarHealthCare.Repository.Repositories.Careplan;
 using JomarHealthCare.Repository.Repositories.Clients;
 using JomarHealthCare.Repository.Repositories.Clients.Rotering;
 using JomarHealthCare.Repository.Repositories.SendRota;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Npgsql.EntityFrameworkCore.PostgreSQL;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace JomarHealthCare.Repository
 {
@@ -24,7 +26,9 @@ namespace JomarHealthCare.Repository
 
             services.AddDbContextPool<MyCareDbContext>((sp, options) =>
             {
-                options.UseSqlServer(configuration.GetConnectionString("JomarHealthCare"));
+                //options.UseSqlServer(configuration.GetConnectionString("JomarHealthCare"));
+                //options.UseNpgsql(configuration.GetConnectionString("ExternalConnection"));
+                options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"));
                 options.EnableSensitiveDataLogging(true);
                 //options.AddInterceptors(sp.GetRequiredService<AuditLogInterceptor>());
             })

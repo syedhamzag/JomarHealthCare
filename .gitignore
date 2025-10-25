@@ -20,3 +20,6 @@
 /JomarHealthCare.Infrastructure/obj
 /JomarHealthCare.Domain/obj
 /JomarHealthCare.Application/obj
+/bin
+/.vs
+/obj
