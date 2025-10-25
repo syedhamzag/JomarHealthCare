@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System.IO.Pipelines;
 using System.Reflection.Emit;
 
 namespace JomarHealthCare.Domain.Entities.Map
@@ -94,6 +95,27 @@ namespace JomarHealthCare.Domain.Entities.Map
             builder.Property(p => p.CompanyCode)
                 .HasColumnName("CompanyCode")
                 .HasMaxLength(8);
+
+            builder.Property(p => p.OurPhilosophy)
+           .HasColumnName("OurPhilosophy")
+           .IsRequired(false);
+
+            builder.Property(p => p.Purpose)
+           .HasColumnName("Purpose")
+           .IsRequired(false);
+
+            builder.Property(p => p.Complaint)
+           .HasColumnName("Complaint")
+           .IsRequired(false);
+
+            builder.Property(p => p.ContactUs)
+           .HasColumnName("ContactUs")
+           .IsRequired(false);
+
+            builder.Property(p => p.PPE)
+           .HasColumnName("PPE")
+           .IsRequired(false);
+
             #endregion
         }
     }

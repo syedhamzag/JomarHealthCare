@@ -84320,8 +84320,8 @@
             "format": "date-time"
           },
           "clientId": {
-            "type": "integer",
-            "format": "int32",
+            "type": "string",
+            "format": "uuid",
             "nullable": true
           },
           "subject": {
@@ -84350,6 +84350,9 @@
           "fileFormat": {
             "type": "string",
             "nullable": true
+          },
+          "client": {
+            "$ref": "#/components/schemas/Client"
           },
           "staffPersonalInfo": {
             "$ref": "#/components/schemas/StaffPersonalInfo"

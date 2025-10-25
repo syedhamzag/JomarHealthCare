@@ -3,6 +3,7 @@ using System;
 using JomarHealthCare.Repository.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace JomarHealthCare.Repository.Migrations
 {
     [DbContext(typeof(MyCareDbContext))]
-    partial class MyCareDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251025213408_UpdateCompany")]
+    partial class UpdateCompany
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
